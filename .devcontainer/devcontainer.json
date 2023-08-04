@@ -1,0 +1,12 @@
+{
+    "name": "SASS Project",
+    "image": "node:14",
+    "postCreateCommand": "npm install -g sass",
+    "forwardPorts": [8080],
+    "extensions": [
+        "ritwickdey.LiveServer"
+    ],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
